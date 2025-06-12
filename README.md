@@ -82,9 +82,9 @@ npm run dev
 ### OpenAI
 1. 获取 API 密钥：[OpenAI API Keys](https://platform.openai.com/api-keys)
 2. 选择模型：
-   - **最新推荐**: gpt-4.1-2025-04-14 (GPT-4.1 系列)
-   - **推理模型**: o3-pro-2025-06-10, o3-2025-04-16, o3-mini-2025-04-16
-   - **经典模型**: o1-pro-2024-12-17, gpt-4o-2024-11-20
+   - **最新推荐**: gpt-4.1 (GPT-4.1 系列)
+   - **推理模型**: o3-pro, o3, o3-mini
+   - **经典模型**: o1-pro, gpt-4o
 
 ### Claude
 1. 获取 API 密钥：[Anthropic Console](https://console.anthropic.com/)
@@ -95,9 +95,9 @@ npm run dev
 ### Google Gemini
 1. 获取 API 密钥：[Google AI Studio](https://makersuite.google.com/app/apikey)
 2. 选择模型：
-   - **最新推荐**: gemini-2.5-pro-preview-06-05, gemini-2.5-flash-preview-06-03 (Gemini 2.5 系列)
+   - **最新推荐**: gemini-2.5-pro-preview-06-05 (Gemini 2.5 系列)
    - **实验模型**: gemini-2.0-flash-thinking-exp
-   - **经典模型**: gemini-1.5-pro-002, gemini-1.5-flash-002
+   - **经典模型**: gemini-1.5-pro, gemini-1.5-flash
 
 ### 自定义 OpenAI 兼容
 1. 配置第三方服务的 API 地址
@@ -106,7 +106,7 @@ npm run dev
    - **DeepSeek**: deepseek-r1-671b, deepseek-v3-671b, deepseek-r1-distill-llama-70b
      - API地址: `https://api.deepseek.com/v1/chat/completions`
      - 获取密钥: [DeepSeek 控制台](https://platform.deepseek.com/api_keys)
-   - **智谱AI**: glm-5-plus, glm-4-flash
+   - **智谱AI**: glm-4-plus, glm-4-flash
      - API地址: `https://open.bigmodel.cn/api/paas/v4/chat/completions`
      - 获取密钥: [智谱AI 开放平台](https://open.bigmodel.cn/usercenter/apikeys)
    - **月之暗面**: moonshot-v2-8k, moonshot-v1-128k
